@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Pallavi Mahavadiya | Periodontist Portfolio</title>
+  <style>
+    :root {
+      --primary: #0d6e6e;
+      --primary-dark: #094c4c;
+      --accent: #1ea7a7;
+      --bg: #f5fbfb;
+      --text: #1f2d2d;
+      --muted: #5d6e6e;
+      --card: #ffffff;
+      --shadow: 0 8px 24px rgba(13, 110, 110, 0.12);
+      --radius: 16px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      width: min(1120px, 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      background: linear-gradient(130deg, var(--primary-dark), var(--primary));
+      color: #fff;
+      padding: 78px 0 90px;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.8rem, 2.7vw, 3rem);
+      margin: 0 0 12px;
+      line-height: 1.2;
+    }
+
+    .hero p {
+      max-width: 760px;
+      font-size: 1.05rem;
+      margin: 0;
+      opacity: 0.95;
+    }
+
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .badge {
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+    }
+
+    section { padding: 62px 0; }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: clamp(1.45rem, 2.2vw, 2rem);
+      color: var(--primary-dark);
+    }
+
+    .section-lead {
+      color: var(--muted);
+      margin: 0 0 26px;
+      max-width: 760px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .services-grid {
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      color: var(--primary);
+      font-size: 1.1rem;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.97rem;
+    }
+
+    .two-col {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    ul {
+      margin: 8px 0 0;
+      padding-left: 18px;
+    }
+
+    li { margin-bottom: 6px; }
+
+    .case-list article {
+      border-left: 4px solid var(--accent);
+      padding-left: 14px;
+      margin-bottom: 14px;
+    }
+
+    .case-list h4 {
+      margin: 0 0 4px;
+      color: var(--primary-dark);
+    }
+
+    .cta {
+      text-align: center;
+      background: linear-gradient(150deg, #e9f8f8, #dff4f4);
+      border-radius: var(--radius);
+      padding: 34px 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 14px;
+      text-decoration: none;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+
+    footer {
+      padding: 24px 0 36px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container hero">
+      <h1>Dr. Pallavi Mahavadiya, BDS, MDS (Periodontist)</h1>
+      <p>
+        Portfolio homepage for comprehensive periodontal consultations and advanced gum, bone, and implant-based treatments,
+        focused on patient-centered planning and predictable long-term oral health outcomes.
+      </p>
+      <div class="hero-badges">
+        <span class="badge">Periodontal Consultations</span>
+        <span class="badge">Implant &amp; Flap Surgeries</span>
+        <span class="badge">Evidence-Based Care</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <h2>Specialized Periodontal Services</h2>
+        <p class="section-lead">Core treatment areas offered in consultation and clinical practice.</p>
+        <div class="grid services-grid">
+          <div class="card"><h3>Dental Implant Surgeries</h3><p>Site evaluation, implant planning, and surgical placement with periodontal support for long-term stability.</p></div>
+          <div class="card"><h3>Periodontal Flap Surgeries</h3><p>Access flap procedures for pocket reduction, debridement, and preservation of supporting structures.</p></div>
+          <div class="card"><h3>Gummy Smile Corrections</h3><p>Smile-line optimization through soft tissue contouring and coordinated aesthetic periodontal planning.</p></div>
+          <div class="card"><h3>Gingival Depigmentation</h3><p>Cosmetic gum depigmentation procedures to improve harmony of gingival appearance.</p></div>
+          <div class="card"><h3>Bone Grafting &amp; GTR</h3><p>Regenerative procedures including grafting and guided tissue regeneration for periodontal defects.</p></div>
+          <div class="card"><h3>Frenectomy / Vestibuloplasty</h3><p>Soft-tissue surgeries to improve attachment, function, hygiene accessibility, and prosthetic support.</p></div>
+          <div class="card"><h3>Peri-Implantitis Management</h3><p>Assessment and treatment protocols for inflammatory conditions around implants.</p></div>
+          <div class="card"><h3>Diabetes-Associated Periodontal Care</h3><p>Integrated periodontal management for patients with diabetes and related inflammatory risk profiles.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container two-col">
+        <div class="card">
+          <h2>Clinical Assessment for Periodontal Conditions</h2>
+          <p class="section-lead">Structured diagnosis and monitoring pathways for individualized treatment planning.</p>
+          <ul>
+            <li>Comprehensive periodontal charting (probing depths, recession, clinical attachment levels).</li>
+            <li>Risk profiling for systemic modifiers, including glycemic status and behavioral factors.</li>
+            <li>Radiographic and clinical correlation for bone levels, furcation involvement, and prognosis.</li>
+            <li>Maintenance interval planning with outcome tracking and relapse prevention.</li>
+          </ul>
+        </div>
+
+        <div class="card case-list">
+          <h2>Clinical Cases &amp; Results</h2>
+          <p class="section-lead">Representative treatment categories and measurable outcomes.</p>
+          <article>
+            <h4>Regenerative Periodontal Defect Cases</h4>
+            <p>Documented reductions in pocket depth with improved attachment levels following grafting and GTR protocols.</p>
+          </article>
+          <article>
+            <h4>Peri-Implant Inflammation Control</h4>
+            <p>Cases focused on bleeding reduction, tissue stabilization, and hygiene-centric maintenance protocols.</p>
+          </article>
+          <article>
+            <h4>Aesthetic Gingival Recontouring</h4>
+            <p>Smile enhancement outcomes through gingival shaping and depigmentation approaches.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container cta">
+        <h2>Evidence-Based Insights</h2>
+        <p>
+          Treatment planning integrates current periodontal evidence, clinical audit outcomes, and patient-specific risk factors
+          to support durable results and informed decision-making.
+        </p>
+        <a href="mailto:contact@drpallaviperio.com">Request a Consultation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Dr. Pallavi Mahavadiya, BDS, MDS (Periodontist) · Portfolio Homepage
+  </footer>
+</body>
+</html>
